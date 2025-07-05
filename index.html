@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            /* *{
+                border: 1px solid red;
+            } */
+            h1{
+                text-align: center;
+                color: blue;
+                background-color: yellow;
+                padding: 2px;
+                border: 4px;
+            }
+            h3{
+                padding-left: 5%;
+                text-decoration: underline;
+            }
+            div{
+                align-items: center;
+                align-content: center;
+                align-self: center;
+                vertical-align: middle;
+                padding-left: 25%;
+            }
+            button{
+                color: black;
+                background-color: green;
+                height: auto;
+                padding: 5px;
+                border: 10px;
+                border-spacing: 2px;
+            }
+            a{
+                text-decoration: non-underline;
+            }
+            gap{
+                padding: 10px;
+            }
+        </style>
         <meta charset="UTF-8">
         <title>Recipies</title>
     </head>
     <body>
         <h1>Odin Recipies</h1>
         <h3>What do you want to cook today?</h3>
-        <ul>
-            <li>
-                <a href="dishes/rice.html">Rice</a>
-            </li>
-            <li>
-                <a href="dishes/tea.html">Tea</a>
-            </li>
-        </ul>
+        <div>
+                <button><a href="dishes/rice.html">Rice</a></button>
+                <gap></gap>
+                <button><a href="dishes/tea.html">Tea</a></button>
+        </div>
     </body>
 </html>
